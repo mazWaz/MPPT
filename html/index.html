@@ -1,0 +1,144 @@
+<style>
+  body {
+    background-color: #060606;
+    color: #ffffff;
+  }
+  table {
+    padding-left: 0px;
+  }
+
+  th,
+  td {
+    padding-left: 15px;
+    font-size: 20px;
+  }
+  tr td:first-child {
+    font-weight: bold;
+  }
+  button,
+  input[type="button"],
+  input[type="submit"] {
+    border-radius: 0.3rem;
+    cursor: pointer;
+    border: 0;
+    background-color: #1fa3ec;
+    color: #fff;
+    line-height: 2.4rem;
+    font-size: 1.2rem;
+    width: 20%;
+  }
+</style>
+
+<body>
+  <div style="text-align: center">
+    <p style="font-size: 40px; font-weight: bold">Monitoring</p>
+    <table style="margin: 0 auto">
+      <tr>
+        <td><b>Input Source</b></td>
+        <td>Battery</td>
+      </tr>
+      <tr>
+        <td>Main Power</td>
+        <td>Yes</td>
+      </tr>
+      <tr>
+        <td>Device Temperature</td>
+        <td>30</td>
+      </tr>
+      <tr>
+        <td>Voltage Input</td>
+        <td>24V</td>
+      </tr>
+      <tr>
+        <td>Current Input</td>
+        <td>5A</td>
+      </tr>
+      <tr>
+        <td>Power Input</td>
+        <td>30W</td>
+      </tr>
+      <tr>
+        <td>Wh Input</td>
+        <td>10Wh</td>
+      </tr>
+      <tr>
+        <td>Kwh Input</td>
+        <td>20wh</td>
+      </tr>
+      <tr>
+        <td>Mwh Input</td>
+        <td>10Kwh</td>
+      </tr>
+      <tr>
+        <td>Voltage Battery</td>
+        <td>12v</td>
+      </tr>
+      <tr>
+        <td>Current Battert</td>
+        <td>10A</td>
+      </tr>
+      <tr>
+        <td>Power Battery</td>
+        <td>120W</td>
+      </tr>
+      <tr>
+        <td>Percentage Battery</td>
+        <td>100%</td>
+      </tr>
+      <tr>
+        <td>Voltage Load</td>
+        <td>24V</td>
+      </tr>
+      <tr>
+        <td>Current Load</td>
+        <td>5A</td>
+      </tr>
+      <tr>
+        <td>Power Load</td>
+        <td>30W</td>
+      </tr>
+      <tr>
+        <td>Wh Load</td>
+        <td>10Wh</td>
+      </tr>
+      <tr>
+        <td>Kwh Load</td>
+        <td>20wh</td>
+      </tr>
+      <tr>
+        <td>Mwh Load</td>
+        <td>10Kwh</td>
+      </tr>
+    </table>
+    <button id="relay">RELAY</button>
+    <script>
+      const toggleDarkModeBtn = document.getElementById("relay");
+      const body = document.body;
+
+      toggleDarkModeBtn.addEventListener("click", function () {
+        console.log("aosdjjwd");
+      });
+    </script>
+  </div>
+</body>
+<!-- {
+  "inputSource": "Battery",
+  "isPowerShutdown": true,
+  "deviceTemperature": 25,
+  "voltageInput": 0,
+  "currentInput": 0,
+  "powerInput": 0,
+  "whInput": 0,
+  "kwhInput": 0,
+  "mwhInput": 0,
+  "voltageBattery": 12.60588074,
+  "currentBattery": 0,
+  "powerBattery": 0,
+  "percentageBattery": 100,
+  "voltageLoad": 12.61330032,
+  "currentLoad": 0,
+  "powerLoad": 0,
+  "whLoad": 0,
+  "kwhLoad": 0,
+  "mwhLoad": 0
+} -->

@@ -1,0 +1,8 @@
+{
+  "blynkAuthToken": "",
+  "mqttEndpoint": "/test/test_arduino_1",
+  "mqttServer": "",
+  "mqttPort": 1883,
+  "mqttUser": "",
+  "mqttPassword": ""
+}
